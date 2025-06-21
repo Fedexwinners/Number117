@@ -1,0 +1,104 @@
+
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+      color: white;
+    }
+
+    #photo-section {
+      margin-top: 30px;
+    }
+
+    #photo-section img {
+      max-width: 90%;
+      margin-top: 10px;
+    }
+
+    #photo-section figcaption {
+      font-style: italic;
+      margin-top: 5px;
+    }
+
+    #message {
+      font-family: serif;
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+
+    #inputSection {
+      margin: 30px 0;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      width: 200px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #result {
+      margin-top: 20px;
+    }
+
+    #downloadBtn {
+      margin-top: 10px;
+      padding: 8px 16px;
+      display: none;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #contacts {
+      margin-top: 40px;
+    }
+
+    .contact-btn {
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .contact-btn.telegram {
+      background-color: #0088cc;
+    }
+
+    .good-luck {
+      margin-top: 30px;
+      color: #00aaff;
+      font-weight: bold;
+    }
+  
